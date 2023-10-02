@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formularios</title>
+</head>
+<body>
+
+   <form action="https://formspree.io/f/xayglbbz" method = "post" class="FlexColumn Formulario">
+     <label for="">Usando Formularios</label>
+   
+     <label for="NombreUsuario">Nombre
+        <input type="text" name="Nombre" id="NombreUsuario">
+     </label>
+
+     <label for="ApellidoUsuario">Apellido
+        <input type="text" name="Apellido" id="ApellidoUsuario"> 
+     </label>
+
+     <label for="Email"> Email
+        <input type="Email" name="Email" id="Email" placeholder="ejemplo@ejemplo.com">
+     </label>
+
+     
+
+     <label for="TurnoCursada">
+        Seleccione un Turno
+        <label for="TMañana">Mañana
+            <input type="radio" name="Turno" value="Mañana" id="TMañana">
+        </label>
+        <label for="TTarde">Tarde
+            <input type="radio" name="Turno" value="Tarde" id="TTarde">
+        </label>
+        <label for="TNoche">Noche
+            <input type="radio" name="Turno" value="Noche" id="TNoche">
+        </label>
+    </label>
+
+    <label for="Tecnicatura">Seleccione una Tecnicatura
+            <label for="DS">Software
+              <input type="checkbox"  name="Tecnicatura" value="Software" id="DS">
+            </label>
+            <label for="M">Molienda
+                <input type="checkbox" name="Tecnicatura" value="Molienda" id="M">
+            </label>
+
+            <label for="B">Bromatologia
+                <input type="checkbox" name="Tecnicatura" value="Bromatologia" id="B">
+            </label>
+    </label>
+
+    <label for="PaisOrigen" >Pais de Origen
+        <select name="PaisDeOrigen" id="PaisOrigen">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Chile">Chile</option>
+            <option value="Venezuela">Venezuela</option>
+        </select>
+    </label>
+
+    <label for="FechaNac">Ingresar fecha de nacimiento
+        <input type="date" name="FechaNac" id="FechaNac">
+    </label>
+   
+
+    <textarea name="ComentarioUsuario" id="Comentario" cols="30" rows="10" placeholder="Comentario..."></textarea>
+
+
+   <input type="submit" name="Enviar" id="Enviar">
+
+
+   </form>
+
+</body>
+</html>

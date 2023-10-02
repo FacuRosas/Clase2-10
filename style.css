@@ -1,0 +1,23 @@
+.FlexColumn{
+
+display: flex;
+flex-direction: column;
+
+}
+
+.Formulario{
+
+gap: 30px;
+background-color: lightblue;
+padding: 10px;
+
+}
+#Enviar{
+    padding: 20px;
+    width: 200px;
+    background-color: lightcoral;
+
+}
+#enviar:hover{
+    cursor: pointer;
+}
